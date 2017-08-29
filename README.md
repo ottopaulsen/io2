@@ -49,6 +49,8 @@ MQTT Client id må være config.
 
 [TinyGSM](https://github.com/vshymanskyy/TinyGSM)
 [MQTT-for-SIM900](https://github.com/andyduino/MQTT-for-SIM900)
+[Nyttige tips for MQTT via SIM900/800[(https://arduino.stackexchange.com/questions/13462/mqtt-client-on-arduino-sim900)
+
 
 
 
