@@ -52,5 +52,38 @@ MQTT Client id må være config.
 [Nyttige tips for MQTT via SIM900/800[(https://arduino.stackexchange.com/questions/13462/mqtt-client-on-arduino-sim900)
 
 
+## Sensorboks
+
+Lag en sensorboks som kan brukes til forskjellig:
+
+* Innebygget DHT22
+* Kobling til brytersensor
+* Innebygget IR sensor
+* Kommunikasjon via ESP8266
+* Batteri eller strømtilkobling
+* Low power ved batteritilkobling
+* Overvåkning av batteritilstand. Send melding om det daglig.
+
+Ønsker at den våkner og sender ved bryter-input. Går det, eller må den ha strøm i slike tilfeller.
+
+
+
+### Config
+
+Må settes opp som aksesspunkt ved oppstart, og vise webside for config. 
+
+Config her må være:
+
+* Navn
+* WiFi aksesspunkt
+* WiFi passord
+* MQTT-Server
+* MQTT-Port
+* Wake up interval
+
+Ved oppstart, dersom den ikke får kontakt med konfigurert server, gå i config mode.
+
+MQTT Client Id kan genereres basert på Navn (?)
+
 
 
